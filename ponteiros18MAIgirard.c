@@ -18,7 +18,7 @@ int main(){
     printf("Digite o segundo numero inteiro: ");
     scanf("%d",&max);
 
-    soma=soma_min_max(&min,&max);//alterará as variáveis, passagem por referência usando ponteiro, LEMBRA DO & para amarrar o endereço da variáveç
+    soma=soma_min_max(&min,&max);//alterarï¿½ as variï¿½veis, passagem por referï¿½ncia usando ponteiro, LEMBRA DO & para amarrar o endereï¿½o da variï¿½veï¿½
 
     printf("\nMenor valor = %d",min);
     printf("\nMaior valor = %d",max);
@@ -54,7 +54,7 @@ int main() {
     }
 
     printf("\n\nODRDEM CRESCENTE:\n");
-    ordenar_crescente(&vetor,n); //o nome do vetor é o mesmo que o endereço do primeiro elemento do vetor(vetor == vetor[0]
+    ordenar_crescente(&vetor,n); //o nome do vetor ï¿½ o mesmo que o endereï¿½o do primeiro elemento do vetor(vetor == vetor[0]
     imprimir_vetor(&vetor,n);
 
     printf("\n\nODRDEM DECRESCENTE:\n");
@@ -89,7 +89,7 @@ void ordenar_decrescente(int *ptr, int tamanho){
     }
 }
 */
-
+/*
 void transformar_minusculas(char *ptr);
 void transformar_maiusculas(char *ptr);
 void transformar_camelcase(char *ptr);
@@ -128,7 +128,7 @@ for(int i=0;ptr[i]!='\0';i++){
     }
 }
 
-void transformar_camelcase(char *ptr){ //Aula de IC (1º caracter e caracteres depois do expaço)
+void transformar_camelcase(char *ptr){ //Aula de IC (1ï¿½ caracter e caracteres depois do expaï¿½o)
 for(int i=0;ptr[i]!='\0';i++){
     if(ptr[i] == ' '){
 
@@ -153,7 +153,7 @@ for(int i=0;ptr[i]!='\0';i++){
     }
 }
 }
-
+*/
 
 
 
